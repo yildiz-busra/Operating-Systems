@@ -3,7 +3,7 @@
 #include <pthread.h>
 
 #define NUMBER_OF_THREADS 10
-
+//git-check
 void *printHelloWorld(void *tid){
     printf("Hello world! Greetings from thread %d\n", tid);
     pthread_exit(NULL);
