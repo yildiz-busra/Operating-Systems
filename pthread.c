@@ -2,7 +2,7 @@
 #include <pthread.h>
 
 int sum; //var data shared by all threads
-
+//git check
 void *runner(void *param){  //function called by threads
     int i, upper=atoi(param);
     sum=0;
